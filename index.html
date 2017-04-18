@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <style>
+    header {
+      background-color: white;
+      border-bottom: 1px dotted;
+      height: 62px;
+      left: 0;
+      line-height: 62px;
+      min-height: 62px;
+      text-align: center;
+      width: 100%;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div id="slider" class="section slider">
+    <a href="javascript:void('0')" 
+       class="arrows slide-left"></a>
+    <a href="javascript:void('0')" 
+       class="arrows slide-right"></a>
+    <div class="slider-wrap">
+      <div class="items">
+        <div class="item" 
+             style="background-image: url(images/slide-item-1.jpg)">
+          <div class="row">
+            <div class="one-half column text">
+              <div>
+                <div class="subtitle">Nulla consequat nibh eget elit sodales</div>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p>Etiam commodo venenatis elit ac varius. Cras lobortis orci risus, eu iaculis felis tempus ut. Pellentesque ac justo elit. Nunc facilisis lacus vel nulla vehicula bibendum.</p>
+                <a class="button button-primary visible-desktop" 
+                   href="javascript:void('0')">See more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="image visible-mobile">
+            <img src="images/slide-item-small-1.jpg">
+            <div class="visible-mobile">
+              <a class="button button-primary" 
+                 href="javascript:void('0')">See more details</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" 
+             style="background-image: url(images/slide-item-2.jpg)">
+          <div class="row">
+            <div class="one-half column text">
+              <div>
+                <div class="subtitle">Sed cursus ullamcorper nunc</div>
+                <h2>Aenean fringilla sodales urna posuere sollicitudin.</h2>
+                <p>Mauris tempus, lectus id ornare finibus, nisl felis porta felis, quis congue nisi arcu id purus. Sed cursus ullamcorper nunc, eget posuere sapien.</p>
+                <a class="button button-primary visible-desktop" 
+                   href="javascript:void('0')">See more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="image visible-mobile">
+            <img src="images/slide-item-small-2.jpg">
+            <div class="visible-mobile">
+              <a class="button button-primary" 
+                 href="javascript:void('0')">See more details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="images-small-wrap visible-desktop">
+        <div class="image">
+          <img src="images/slide-item-small-1.jpg"> 
+        </div>
+        <div class="image">
+          <img src="images/slide-item-small-2.jpg"> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/slider.js"></script>
+</body>
+</html>
